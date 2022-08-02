@@ -12,15 +12,15 @@ RSpec.describe Pantry do
           }
         )
       }
-      let(:ingredient2) {
-        Ingredient.new(
-          {
-            name: "Macaroni", 
-            unit: "oz", 
-            calories: 200
-            }
-          )
-        }
+    let(:ingredient2) {
+      Ingredient.new(
+        {
+          name: "Macaroni", 
+          unit: "oz", 
+          calories: 200
+          }
+        )
+      }
 
     it 'exists' do
       expect(pantry).to be_a(Pantry)
