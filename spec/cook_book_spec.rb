@@ -20,4 +20,10 @@ RSpec.describe CookBook do
       expect(cookbook.recipes).to eq([recipe1, recipe2])
     end
   end
+
+  context 'Iteration 3' do
+    let(:cookbook) { CookBook.new}
+    let(:recipe1) { Recipe.new("Mac and Cheese") }
+    let(:recipe2) { Recipe.new("Cheeseburger") }
+  end
 end
